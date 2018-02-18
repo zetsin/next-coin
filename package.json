@@ -1,0 +1,35 @@
+{
+  "name": "next-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production next start",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.10.837",
+    "material-ui": "^1.0.0-beta.30",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-jsx": "^2.2.1",
+    "typeface-roboto": "0.0.50"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "standard": "8.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
